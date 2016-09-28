@@ -4,13 +4,15 @@ Example:
 Original - <string name="Hide">Hide App</string>
 Spanish - <string name="Hide">Ocultar App</string>
 
-Language - Which Language Are You Translating?
+Language - Which Language Are You Translating? Portuguese
 
     <string name="app_name">XInsta</string>
 
     <!-- Alert Dialog -->
     <string name="Okay">Okay</string>
     <string name="Warning">You can access the app via the Xposed Installer once it has been hidden.</string>
+      <string name="OK">OK</string>
+    <string name="Warning">Pode abrir o aplicativo atraves do xposed installer, umas vez que esta oculto.</string>
 
     <!-- Date -->
     <string name="AM">AM/PM</string>
@@ -22,6 +24,15 @@ Language - Which Language Are You Translating?
     <string name="Second">Second</string>
     <string name="Space">---SPACE---</string>
     <string name="Year">Year</string>
+    <string name="AM">AM/PM</string>
+    <string name="Day">Dia</string>
+    <string name="Hour">Hora</string>
+    <string name="Minute">Minute</string>
+    <string name="Month">Mes</string>
+    <string name="Reset">Reset</string>
+    <string name="Second">Segundo</string>
+    <string name="Space">---ESPACO---</string>
+    <string name="Year">Ano</string>
 
     <!-- File Browser -->
     <string name="nnf_new_folder">New folder</string>
@@ -29,6 +40,11 @@ Language - Which Language Are You Translating?
     <string name="nnf_name">Name</string>
     <string name="nnf_select_something_first">Please select something first</string>
     <string name="nnf_permission_external_write_denied">Permission to access filesystem denied</string>
+    <string name="nnf_new_folder">Nova pasta</string>
+    <string name="nnf_create_folder_error">Erro a criar pasta</string>
+    <string name="nnf_name">Nome</string>
+    <string name="nnf_select_something_first">Por favor selecione algo em primeiro lugar</string>
+    <string name="nnf_permission_external_write_denied">Premissao para aceder a ficheiro de sistema negada</string>
 
     <!-- ListView -->
     <string name="Image">Image Location</string>
@@ -37,6 +53,12 @@ Language - Which Language Are You Translating?
     <string name="Save">SAVE LOCATIONS</string>
     <string name="Update">UPDATE HOOKS</string>
     <string name="Video">Video Location</string>
+    <string name="Image">Localizacao de Imagem</string>
+    <string name="Profile">Loacalizacao de Icone de perfil</string>
+    <string name="Recommended">Recomendado</string>
+    <string name="Save">LOCALIZACOES DE ARQUIVOS</string>
+    <string name="Update">ATUALIZACAO DE CODIGO</string>
+    <string name="Video">Localizacao de Video</string>
 
     <!-- Menu Items !-->
     <string name="Change">Change Separator</string>
@@ -61,18 +83,54 @@ Language - Which Language Are You Translating?
     <string name="Story">Disable Stories Timer</string>
     <string name="Suggestion">Hide Suggestions</string>
     <string name="Translations">Translate XInsta</string>
+    <string name="Change">Mudar Separador</string>
+    <string name="ChangeOrder">Mudar Ordem de Opcoes</string>
+    <string name="Check">Verificar Atualizacao</string>
+    <string name="Comment">Copiar Comentario com um toque</string>
+    <string name="Contact">Contacto do Desenvolvedor</string>
+    <string name="Custom">Linguagem Personalizada</string>
+    <string name="Customization">Personalizacao</string>
+    <string name="Date">Formato da Data</string>
+    <string name="Default">Fonte De Codigo Padrao</string>
+    <string name="Error_log">Enviar Logs De Erro</string>
+    <string name="File">Ficheiro - Mudar Formato de Data</string>
+    <string name="Folder">Pasta - Adicionar Nome de Usuario</string>
+    <string name="Follow">Indicador de Seguidor - Cor</string>
+    <string name="Hide">Esconder App</string>
+    <string name="Like">Desativar Botao Gosto</string>
+    <string name="Logging">Desativar registo Xposed</string>
+    <string name="Manual">Mudanca de Codigo manualmente</string>
+    <string name="Misc">Outros.</string>
+    <string name="NotificationHide">Esconder notificacao de Download</string>
+    <string name="Push">Push Notificacao - Download</string>
+    <string name="Show">Mostrar App</string>
+    <string name="Slide">Desativar Navegacao por Deslize</string>
+    <string name="Sound">Ativar Som Autoplay (Videos)</string>
+    <string name="Special">Agradecimentos Especiais</string>
+    <string name="Story">Destivar Tempo nas Historias</string>
+    <string name="Suggestion">Esconder Sugestoes</string>
+    <string name="Translations">Traduzir XInsta</string>
+
 
     <!-- Module -->
     <string name="Download_Completed">Download Completed</string>
     <string name="Download_Failed">Download Failed</string>
     <string name="DownloadDots">Downloading&#8230;</string>
     <string name="Please">Please update your hooks via the module.</string>
+    <string name="Download_Completed">Download Completo</string>
+    <string name="Download_Failed">Download Falhado</string>
+    <string name="DownloadDots">Descarregar&#8230;</string>
+    <string name="Please">Por Favor atualize o codigo atraves do modulo.</string>
+
 
     <!-- Parameters for above (Downloading photo/video) -->
     <string name="photo">Photo</string>
     <string name="video">Video</string>
+    <string name="photo">Foto</string>
+    <string name="video">Video</string>
 
     <!-- The Download button -->
+    <string name="the_not_so_big_but_big_button">Download</string>
     <string name="the_not_so_big_but_big_button">Download</string>
 
     <!-- Title in notification -->
@@ -88,3 +146,12 @@ Language - Which Language Are You Translating?
     <string name="P_LocationChanged">Profile icon save location reset to default.</string>
     <string name="Picture_Not">Please click the image and try again</string>
     <string name="V_LocationChanged">Video save location reset to default.</string>
+    <string name="Copied">Comentario copiado</string>
+    <string name="Downloading">A Descarregar %1$s</string>
+    <string name="Hooks_Latest">Ja tem o ultimo codigo.</string>
+    <string name="Hooks_Updated">Codigos foram atualizados.\nPlease kill the Instagram app.</string>
+    <string name="I_LocationChanged">Localizacao de imagem restaurada para padrao.</string>
+    <string name="Incorrect_Location">Não foi possível guardar aqui. \ Por favor selecione outro local.</string>
+    <string name="P_LocationChanged">Localizacao de Icon de Perfil redefenido para padrao.</string>
+    <string name="Picture_Not">Por favor clique na imagem e tente novamente</string>
+    <string name="V_LocationChanged">Localizacao de Video redefenida para padrao.</string>
